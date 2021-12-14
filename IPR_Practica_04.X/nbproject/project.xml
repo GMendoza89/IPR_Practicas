@@ -3,8 +3,8 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>IPR_Practica04</name>
-            <creation-uuid>54c706b5-4a38-4e65-9c05-77406db53004</creation-uuid>
+            <name>IPR_Practica_04</name>
+            <creation-uuid>bbf6e3c8-4565-4188-85f9-29907fa72a82</creation-uuid>
             <make-project-type>0</make-project-type>
             <c-extensions>c</c-extensions>
             <cpp-extensions/>
