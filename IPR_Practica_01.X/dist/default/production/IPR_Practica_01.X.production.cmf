@@ -11,14 +11,14 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
+$/tmp/xcIq2uuI1.o
+idloc IDLOC 5 200000 200000 8 1
+init CODE 0 0 0 4 1
+config CONFIG 4 300000 300000 E 1
 $dist/default/production/IPR_Practica_01.X.production.o
 cinit CODE 0 7FAA 7FAA 6 1
 idloc IDLOC 5 200000 200000 8 1
 text0 CODE 0 7FB0 7FB0 50 1
-config CONFIG 4 300000 300000 E 1
-$/tmp/xchFe6fcl.o
-idloc IDLOC 5 200000 200000 8 1
-init CODE 0 0 0 4 1
 config CONFIG 4 300000 300000 E 1
 # %UNUSED Section
 # This section enumerates the unused ranges of each CLASS. Each entry
@@ -75,12 +75,12 @@ $dist/default/production/IPR_Practica_01.X.production.o
 7FEC text0 CODE >34:/Users/gustavomendoza/MPLABXProjects/Interfaces y Periféricos para Robots/IPR_Practica_01.X/main.c
 7FF0 text0 CODE >35:/Users/gustavomendoza/MPLABXProjects/Interfaces y Periféricos para Robots/IPR_Practica_01.X/main.c
 7FF4 text0 CODE >36:/Users/gustavomendoza/MPLABXProjects/Interfaces y Periféricos para Robots/IPR_Practica_01.X/main.c
-7FAA cinit CODE >864:/tmp/xc8VTaLhU.s
-7FAA cinit CODE >866:/tmp/xc8VTaLhU.s
-7FAA cinit CODE >869:/tmp/xc8VTaLhU.s
-7FAA cinit CODE >875:/tmp/xc8VTaLhU.s
-7FAA cinit CODE >877:/tmp/xc8VTaLhU.s
-7FAC cinit CODE >878:/tmp/xc8VTaLhU.s
+7FAA cinit CODE >864:/tmp/xcCkWJEoP.s
+7FAA cinit CODE >866:/tmp/xcCkWJEoP.s
+7FAA cinit CODE >869:/tmp/xcCkWJEoP.s
+7FAA cinit CODE >875:/tmp/xcCkWJEoP.s
+7FAA cinit CODE >877:/tmp/xcCkWJEoP.s
+7FAC cinit CODE >878:/tmp/xcCkWJEoP.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -99,28 +99,28 @@ __Hspace_1 0 0 ABS 0 - dist/default/production/IPR_Practica_01.X.production.o
 __Hspace_2 0 0 ABS 0 - dist/default/production/IPR_Practica_01.X.production.o
 __Hspace_4 60000E 0 ABS 0 - dist/default/production/IPR_Practica_01.X.production.o
 __Hibigdata 0 0 CODE 0 ibigdata dist/default/production/IPR_Practica_01.X.production.o
-__mediumconst 0 0 MEDIUMCONST 0 mediumconst /tmp/xchFe6fcl.o
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst /tmp/xcIq2uuI1.o
 __Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production/IPR_Practica_01.X.production.o
 __Lsmallconst 0 0 SMALLCONST 0 smallconst dist/default/production/IPR_Practica_01.X.production.o
 _LATA F89 0 ABS 0 - dist/default/production/IPR_Practica_01.X.production.o
 _LATB F8A 0 ABS 0 - dist/default/production/IPR_Practica_01.X.production.o
 _LATC F8B 0 ABS 0 - dist/default/production/IPR_Practica_01.X.production.o
 _LATD F8C 0 ABS 0 - dist/default/production/IPR_Practica_01.X.production.o
-___sp 0 0 STACK 2 stack /tmp/xchFe6fcl.o
+___sp 0 0 STACK 2 stack /tmp/xcIq2uuI1.o
 _main 7FB0 0 CODE 0 text0 dist/default/production/IPR_Practica_01.X.production.o
-start 0 0 CODE 0 init /tmp/xchFe6fcl.o
+start 0 0 CODE 0 init /tmp/xcIq2uuI1.o
 __size_of_main 0 0 ABS 0 - dist/default/production/IPR_Practica_01.X.production.o
 __Hpowerup 0 0 CODE 0 powerup dist/default/production/IPR_Practica_01.X.production.o
-__accesstop 60 0 ABS 0 - /tmp/xchFe6fcl.o
-intlevel0 0 0 CODE 0 text /tmp/xchFe6fcl.o
-intlevel1 0 0 CODE 0 text /tmp/xchFe6fcl.o
-intlevel2 0 0 CODE 0 text /tmp/xchFe6fcl.o
-intlevel3 0 0 CODE 0 text /tmp/xchFe6fcl.o
+__accesstop 60 0 ABS 0 - /tmp/xcIq2uuI1.o
+intlevel0 0 0 CODE 0 text /tmp/xcIq2uuI1.o
+intlevel1 0 0 CODE 0 text /tmp/xcIq2uuI1.o
+intlevel2 0 0 CODE 0 text /tmp/xcIq2uuI1.o
+intlevel3 0 0 CODE 0 text /tmp/xcIq2uuI1.o
 __LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production/IPR_Practica_01.X.production.o
 __Hifardata 0 0 CODE 0 ifardata dist/default/production/IPR_Practica_01.X.production.o
 __Hclrtext 0 0 ABS 0 clrtext dist/default/production/IPR_Practica_01.X.production.o
-___inthi_sp 0 0 STACK 2 stack /tmp/xchFe6fcl.o
-___intlo_sp 0 0 STACK 2 stack /tmp/xchFe6fcl.o
+___inthi_sp 0 0 STACK 2 stack /tmp/xcIq2uuI1.o
+___intlo_sp 0 0 STACK 2 stack /tmp/xcIq2uuI1.o
 __Hintcode_body 0 0 ABS 0 intcode_body dist/default/production/IPR_Practica_01.X.production.o
 __Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production/IPR_Practica_01.X.production.o
 __Hmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production/IPR_Practica_01.X.production.o
@@ -129,7 +129,7 @@ __Lintcodelo 0 0 CODE 0 intcodelo dist/default/production/IPR_Practica_01.X.prod
 start_initialization 7FAA 0 CODE 0 cinit dist/default/production/IPR_Practica_01.X.production.o
 __HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production/IPR_Practica_01.X.production.o
 ___rparam_used 1 0 ABS 0 - dist/default/production/IPR_Practica_01.X.production.o
-isa$xinst 0 0 ABS 0 - /tmp/xchFe6fcl.o
+isa$xinst 0 0 ABS 0 - /tmp/xcIq2uuI1.o
 __Hbank0 0 0 ABS 0 bank0 dist/default/production/IPR_Practica_01.X.production.o
 __Hbank1 0 0 ABS 0 bank1 dist/default/production/IPR_Practica_01.X.production.o
 __Hbank2 0 0 ABS 0 bank2 dist/default/production/IPR_Practica_01.X.production.o
@@ -149,7 +149,7 @@ __Hstack 0 0 STACK 2 stack dist/default/production/IPR_Practica_01.X.production.
 __Htext0 0 0 ABS 0 text0 dist/default/production/IPR_Practica_01.X.production.o
 __Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production/IPR_Practica_01.X.production.o
 __Hbigram 0 0 ABS 0 bigram dist/default/production/IPR_Practica_01.X.production.o
-__smallconst 0 0 SMALLCONST 0 smallconst /tmp/xchFe6fcl.o
+__smallconst 0 0 SMALLCONST 0 smallconst /tmp/xcIq2uuI1.o
 __Hcomram 0 0 ABS 0 comram dist/default/production/IPR_Practica_01.X.production.o
 __Hconfig 30000E 0 CONFIG 4 config dist/default/production/IPR_Practica_01.X.production.o
 __Lbank0 0 0 ABS 0 bank0 dist/default/production/IPR_Practica_01.X.production.o
@@ -207,9 +207,9 @@ __Lcomram 0 0 ABS 0 comram dist/default/production/IPR_Practica_01.X.production.
 __Lconfig 0 0 CONFIG 4 config dist/default/production/IPR_Practica_01.X.production.o
 __Lfarbss 0 0 FARRAM 0 farbss dist/default/production/IPR_Practica_01.X.production.o
 __Lfardata 0 0 FARRAM 0 fardata dist/default/production/IPR_Practica_01.X.production.o
-isa$std 1 0 ABS 0 - /tmp/xchFe6fcl.o
-stackhi 7FF 0 ABS 0 - /tmp/xchFe6fcl.o
-stacklo 60 0 ABS 0 - /tmp/xchFe6fcl.o
+isa$std 1 0 ABS 0 - /tmp/xcIq2uuI1.o
+stackhi 7FF 0 ABS 0 - /tmp/xcIq2uuI1.o
+stacklo 60 0 ABS 0 - /tmp/xcIq2uuI1.o
 __Lintcode 0 0 CODE 0 intcode dist/default/production/IPR_Practica_01.X.production.o
 __Lintret 0 0 ABS 0 intret dist/default/production/IPR_Practica_01.X.production.o
 __Lirdata 0 0 CODE 0 irdata dist/default/production/IPR_Practica_01.X.production.o
@@ -227,7 +227,7 @@ __Lrparam 0 0 COMRAM 1 rparam dist/default/production/IPR_Practica_01.X.producti
 __pcinit 7FAA 0 CODE 0 cinit dist/default/production/IPR_Practica_01.X.production.o
 __ptext0 7FB0 0 CODE 0 text0 dist/default/production/IPR_Practica_01.X.production.o
 __Lstruct 0 0 COMRAM 1 struct dist/default/production/IPR_Practica_01.X.production.o
-__ramtop 800 0 RAM 0 ramtop /tmp/xchFe6fcl.o
+__ramtop 800 0 RAM 0 ramtop /tmp/xcIq2uuI1.o
 __Lpowerup 0 0 CODE 0 powerup dist/default/production/IPR_Practica_01.X.production.o
 __Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production/IPR_Practica_01.X.production.o
 __Lreset_vec 0 0 CODE 0 reset_vec dist/default/production/IPR_Practica_01.X.production.o
