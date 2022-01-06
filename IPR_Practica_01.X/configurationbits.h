@@ -11,7 +11,7 @@
 #define	CONFIGURATIONBITS
 
 #include <xc.h> // include processor files - each processor file is guarded.  
-#define _XTAL_FREQ 40000000
+#define _XTAL_FREQ 20000000 // frecuencia de oscilador externo de 20 MHz
 
 #endif	/* XC_HEADER_TEMPLATE_H */
 

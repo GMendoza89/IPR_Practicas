@@ -6,7 +6,7 @@ __S5 0 0 ABS 0
 __Hintentry 0 0 ABS 0
 __Lintentry 0 0 ABS 0
 _LATD F8C 0 ABS 0
-_main 7FB6 0 CODE 0
+_main 7FB4 0 CODE 0
 ___sp 0 0 STACK 2
 start 0 0 CODE 0
 _TRISD F95 0 ABS 0
@@ -81,7 +81,8 @@ __end_of_main 8000 0 CODE 0
 __Lrbss 0 0 COMRAM 1
 __Htext 0 0 ABS 0
 __Ltext 0 0 ABS 0
-end_of_initialization 7FB0 0 CODE 0
+end_of_initialization 7FAE 0 CODE 0
+_TRISAbits F92 0 ABS 0
 __Hibigdata 0 0 CODE 0
 __Libigdata 0 0 CODE 0
 __Hifardata 0 0 CODE 0
@@ -106,10 +107,10 @@ __Hbank7 0 0 ABS 0
 __Lbank7 0 0 ABS 0
 __Htext0 0 0 ABS 0
 __Ltext0 0 0 ABS 0
-__ptext0 7FB6 0 CODE 0
+__ptext0 7FB4 0 CODE 0
 __Hclrtext 0 0 ABS 0
 __Lclrtext 0 0 ABS 0
-__end_of__initialization 7FB0 0 CODE 0
+__end_of__initialization 7FAE 0 CODE 0
 ___rparam_used 1 0 ABS 0
 __Hidata 0 0 CODE 0
 __Lidata 0 0 CODE 0
@@ -136,7 +137,7 @@ __Hnvbit 0 0 COMRAM 1
 __Lnvbit 0 0 COMRAM 1
 __Hcinit 0 0 ABS 0
 __Lcinit 0 0 ABS 0
-__pcinit 7FB0 0 CODE 0
+__pcinit 7FAE 0 CODE 0
 __ramtop 800 0 RAM 0
 __mediumconst 0 0 MEDIUMCONST 0
 __size_of_main 0 0 ABS 0
@@ -157,32 +158,34 @@ intlevel0 0 0 CODE 0
 intlevel1 0 0 CODE 0
 intlevel2 0 0 CODE 0
 intlevel3 0 0 CODE 0
-start_initialization 7FB0 0 CODE 0
-__initialization 7FB0 0 CODE 0
+start_initialization 7FAE 0 CODE 0
+__initialization 7FAE 0 CODE 0
 __activetblptr 0 0 ABS 0
 %segments
 reset_vec 0 3 CODE 0 0
 cstackCOMRAM 1 2 COMRAM 1 1
-text0 7FB6 7FFF CODE 7FB6 0
-cinit 7FB0 7FB5 CODE 7FB0 0
+text0 7FB4 7FFF CODE 7FB4 0
+cinit 7FAE 7FB3 CODE 7FAE 0
 %locals
 dist/default/production/IPR_Practica_01_2.X.production.o
 /Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f4550.h
-/tmp/xciJGt2QH.s
-854 7FB0 0 CODE 0
-856 7FB0 0 CODE 0
-859 7FB0 0 CODE 0
-865 7FB0 0 CODE 0
-867 7FB0 0 CODE 0
-868 7FB2 0 CODE 0
+/tmp/xcpYm5z3Q.s
+856 7FAE 0 CODE 0
+858 7FAE 0 CODE 0
+861 7FAE 0 CODE 0
+867 7FAE 0 CODE 0
+869 7FAE 0 CODE 0
+870 7FB0 0 CODE 0
 main.c
-12 7FB6 0 CODE 0
-17 7FB6 0 CODE 0
-18 7FBA 0 CODE 0
-19 7FBE 0 CODE 0
-22 7FC2 0 CODE 0
-23 7FC6 0 CODE 0
-24 7FCA 0 CODE 0
-27 7FCE 0 CODE 0
-28 7FDC 0 CODE 0
-29 7FE0 0 CODE 0
+14 7FB4 0 CODE 0
+20 7FB4 0 CODE 0
+21 7FB6 0 CODE 0
+22 7FBA 0 CODE 0
+23 7FBE 0 CODE 0
+26 7FC2 0 CODE 0
+27 7FC6 0 CODE 0
+28 7FCA 0 CODE 0
+31 7FCE 0 CODE 0
+32 7FD0 0 CODE 0
+33 7FDE 0 CODE 0
+34 7FE2 0 CODE 0

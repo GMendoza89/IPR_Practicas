@@ -5629,17 +5629,21 @@ extern __attribute__((nonreentrant)) void _delaywdt(unsigned long);
 extern __attribute__((nonreentrant)) void _delay3(unsigned char);
 # 33 "/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/xc.h" 2 3
 # 10 "main.c" 2
+
 # 1 "./configurationBits.h" 1
-# 11 "main.c" 2
+# 12 "main.c" 2
+
 
 void main(void) {
 
 
 
 
-    ADCON0 = 0b00000001;
+
+    TRISAbits.RA0 = 1;
     ADCON1 = 0b00001110;
-    ADCON2 = 0b00111111;
+    ADCON0 = 0b00000001;
+    ADCON2 = 0b00010101;
 
 
     PORTD = 0x00;
@@ -5647,9 +5651,10 @@ void main(void) {
     TRISD = 0b00000000;
 
     while(1){
-        while(ADCON0bits.ADON);
+        ADCON0bits.GO_DONE = 1;
+        while(ADCON0bits.GO_DONE);
         PORTD = ADRESL;
-        _delay((unsigned long)((250)*(40000000/4000.0)));
+        _delay((unsigned long)((250)*(20000000/4000.0)));
     }
 
 

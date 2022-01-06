@@ -7,9 +7,19 @@
 
 
 #include <xc.h>
+#include "configurationBits.h"
+#include "libuart4550.h"
 
-#define _XTAL_FREQ 20000000
 void main(void) {
-    __delay_ms(1);
+    
+    
+    uartInit();// inicializamos modulo uart
+    char mensaje[] = "Hola Mundo";
+    while(1){//Ciclo Principal
+        uartPrint(mensaje);
+        __delay_ms(500);
+    }
+    
+    
     return;
 }
